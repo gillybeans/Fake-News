@@ -3,7 +3,6 @@
 require __DIR__ . '/functions.php';
 require __DIR__ . '/data.php';
 
-print_r($posts);
 
 ?>
 
@@ -18,7 +17,21 @@ print_r($posts);
 </head>
 
 <body>
-    
+    <?php foreach ($posts AS $post) :
+        $title = $post['title'];
+        $text = $post['conetent'];
+
+        ?>
+
+        <div class="contatiner">
+            <header></header>
+            <main>
+                <section>
+
+                </section>
+            </main>
+        </div>
 </body>
+
 
 </html>
