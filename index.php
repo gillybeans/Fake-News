@@ -2,36 +2,34 @@
 
 require __DIR__ . '/functions.php';
 require __DIR__ . '/data.php';
-
+require __DIR__ . '/header.php';
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake News</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+<section class="container">
+    
     <?php foreach ($posts AS $post) :
-        $title = $post['title'];
-        $text = $post['conetent'];
+    $title = $post['title'];
+    $text = $post['content'];
+    $date = $post['published'];
+    $image = $post['img'];
+    $likes = $post['likes'];
+    
+    $name = $authors[$post['authorId']];
 
-        ?>
+    ?>
 
-        <div class="contatiner">
-            <header></header>
-            <main>
-                <section>
-
-                </section>
-            </main>
+    <article>
+        <div class="article-post">
+            <h2><?php echo $title; ?></h2>
+            <h3 class="date">Published: <?php echo $date; ?></h3>
+            <h3 class="author">Written by: <?php echo $name; ?></h3>
+            <img src="/img<?php echo $image; ?>" alt="image">
+            <p class="text"><?php echo $text; ?></p>
+            <button class="likebutton <?php echo $likes; ?>"> likes</button>
         </div>
-</body>
+    </article>
 
+    <?php endforeach; ?>
 
-</html>
+</section>
