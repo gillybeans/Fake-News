@@ -15,7 +15,7 @@ require __DIR__ . '/header.php';
     $image = $post['img'];
     $likes = $post['likes'];
     
-    $name = $authors[$post['authorId']];
+    $name = $authors[$post['authorId']]['name'];
 
     ?>
 
