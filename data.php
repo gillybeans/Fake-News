@@ -17,7 +17,11 @@ $authors = [
 ],
 [
     'id' => 4,
-    'name' => 'Cloud Strife'
+    'name' => 'Tickle Master'
+],
+[
+    'id' => 5,
+    'name' => 'Grumpy Dumpy'
 ]
 ];
 
@@ -26,7 +30,7 @@ $posts = [
     'id' => 1,
     'title' => 'Cows lose their jobs as milk prices drop', 
     'content' => 'Banana potato hej hej lite random text',
-    'authorId' => 3,
+    'authorId' => 4,
     'published' => '2020-02-03', 
     'likes' => 467,
     'img' => 'https://picsum.photos/650/300',
@@ -62,7 +66,7 @@ $posts = [
     'id' => 5,
     'title' => 'Federal Agents raid gun shop - find weapons', 
     'content' => 'Banana potato hej hej lite random text', 
-    'authorId' => 0, 
+    'authorId' => 3, 
     'published' => '2020-03-19', 
     'likes' => 627,
     'img' => 'https://picsum.photos/650/300',
@@ -71,7 +75,7 @@ $posts = [
     'id' => 6,
     'title' => 'Rooms with broken air conditioners are hot', 
     'content' => 'Banana potato hej hej lite random text', 
-    'authorId' => 2, 
+    'authorId' => 1, 
     'published' => '2020-05-14', 
     'likes' => 211,
     'img' => 'https://picsum.photos/650/300',
@@ -80,7 +84,7 @@ $posts = [
     'id' => 7,
     'title' => 'Planes are forced to land at airports', 
     'content' => 'Banana potato hej hej lite random text', 
-    'authorId' => 3,
+    'authorId' => 4,
     'published' => '2020-06-15', 
     'likes' => 69,
     'img' => 'https://picsum.photos/650/300',
@@ -98,9 +102,18 @@ $posts = [
     'id' => 9,
     'title' => 'Diana was still alive hours before she died', 
     'content' => 'Banana potato hej hej lite random text', 
-    'authorId' => 2,
+    'authorId' => 3,
     'published' => '2020-01-13', 
     'likes' => 1572,
+    'img' => 'https://picsum.photos/650/300',
+],
+[ 
+    'id' => 10,
+    'title' => 'How to Fake it until you Make it', 
+    'content' => 'Banana potato hej hej lite random text', 
+    'authorId' => 2,
+    'published' => '2020-04-22', 
+    'likes' => 23,
     'img' => 'https://picsum.photos/650/300',
 ]
 ];
