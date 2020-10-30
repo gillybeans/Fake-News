@@ -99,7 +99,7 @@ $posts = [
     'title' => 'Diana was still alive hours before she died', 
     'content' => 'Banana potato hej hej lite random text', 
     'authorId' => 2,
-    'published' => '2020-12-01', 
+    'published' => '2020-01-13', 
     'likes' => 1572,
     'img' => 'https://picsum.photos/650/300',
 ]

@@ -24,7 +24,7 @@ require __DIR__ . '/header.php';
             <h2><?php echo $title; ?></h2>
             <h3 class="date">Published: <?php echo $date; ?></h3>
             <h3 class="author">Written by: <?php echo $name; ?></h3>
-            <img src="/img<?php echo $image; ?>" alt="image">
+            <img src="<?php echo $image; ?>" alt="image">
             <p class="text"><?php echo $text; ?></p>
             <button class="likebutton <?php echo $likes; ?>"> likes</button>
         </div>
