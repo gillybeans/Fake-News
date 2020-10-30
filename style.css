@@ -13,7 +13,7 @@ body {
 /************* HEADER *************/
 header {
     width: 100%;
-    height: 100;
+    height: 100px;
     position: fixed;
     top: 0;
     right: 0;
@@ -24,6 +24,29 @@ header {
     border-bottom: 5px solid #df2e3d;
 }
 
+h1 {
+    width: 100%;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.authorbutton {
+    background-color: #ebebeb;
+    padding: 1%;
+    margin: 1%;
+    width: 10%;
+    box-shadow: 2px 2px 3px lightgrey;
+    border: none;
+}
+
+.authorbutton:hover {
+    background-color: #df2e3d;
+    color: white;
+}
 
 /************* CONTAINER *************/
 .container {
@@ -31,7 +54,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 140px
+    padding-top: 150px
 }
 
 article {
@@ -47,6 +70,9 @@ img {
     height: auto;
     width: 100%;
 }
+
+
+
 
 /************* TEXT & COLOR *************/
 
@@ -81,6 +107,10 @@ h3 {
     text-align: right;
 }
 
+a {
+    font-weight: bolder;
+    color: red;
+}
 
 
 /************* MEDIA QUERIES *************/
