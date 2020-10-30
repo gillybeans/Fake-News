@@ -23,6 +23,4 @@ First hand-in assignment; build a news feed with fake news articles
 <code>$ php -S localhost:8000 </code>
 </pre>
 
-<h2>Tested by:</h2>
-
 <h2>Code Review:</h2>
