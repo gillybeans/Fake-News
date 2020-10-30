@@ -1,13 +1,10 @@
 <?php
 
-require __DIR__ . '/functions.php';
-require __DIR__ . '/data.php';
 require __DIR__ . '/header.php';
 
-//usort($posts, 'sortDates'); //Sort the dates of the articles in descending order.
+usort($posts, 'sortDates'); //Sort the dates of the articles in descending order.
 
 ?>
-
 <section class="container">
     
     <?php foreach ($posts AS $post) :
