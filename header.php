@@ -3,12 +3,11 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
-if (isset($_GET['author'])) {
+/*if (isset($_GET['author'])) {
     $authorId = $_GET['author'];
     $posts = filteredAuthor($posts, $authorId);
-}
+};*/
 
-usort($posts, 'sortPostsByPublished');
 
 ?>
 
