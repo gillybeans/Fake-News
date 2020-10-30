@@ -19,7 +19,7 @@ require __DIR__ . '/functions.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Fake News Ay yo</title>
+    <title>Fake News Hej</title>
 </head>
 <body>
     <header>
