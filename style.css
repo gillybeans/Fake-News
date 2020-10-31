@@ -1,3 +1,7 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     width: 100%;
     display: flex;
@@ -6,9 +10,7 @@ body {
     background-color:#ebebeb;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 /************* HEADER *************/
 header {
@@ -25,8 +27,9 @@ header {
 }
 
 h1 {
-    width: 100%;
+    height: 40px;
     display: flex;
+    left: 0;
 }
 
 .menu {
@@ -47,6 +50,13 @@ h1 {
     background-color: #df2e3d;
     color: white;
 }
+
+
+.fa {
+color: red;
+}
+
+
 
 /************* CONTAINER *************/
 .container {

@@ -25,7 +25,7 @@ usort($posts, 'sortDates'); //Sort the dates of the articles in descending order
             <h3 class="date">Published: <?php echo $date; ?></h3>
             <img src="<?php echo $image; ?>" alt="image">
             <p class="text"><?php echo $text; ?> <a href="#">READ MORE</a> </p>
-            <button class="likeBtn <?php echo $likes; ?>"><span><?php echo $likes; ?></span> likes</button>
+            <button class="likeBtn <?php echo $likes; ?>"><i class="fa fa-thumbs-up" aria-hidden="true"></i>  <span><?php echo $likes; ?></span> likes</button>
         </div>
     </article>
 
