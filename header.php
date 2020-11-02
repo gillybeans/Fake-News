@@ -3,14 +3,13 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
-/*if (isset($_GET['author'])) {
+//prints author posts by given id.
+if (isset($_GET['author'])) {
     $authorId = $_GET['author'];
-    $posts = filteredAuthor($posts, $authorId);
-};*/
-
+    $posts = filterByAuthor($posts, $authorId);
+};
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +23,7 @@ require __DIR__ . '/functions.php';
 </head>
 <body>
     <header>
-        <h1><img src="/img/FakeNewsLogo.svg" alt="Fake News"></h1>
+        <h1><a href="/"><img src="/img/FakeNewsLogo.svg" height="60" alt="FakeNews"></a></h1>
         <form action="" method="get" class="menu">
         <?php foreach ($authors AS $i => $author) :
         $name = $author['name'];
@@ -33,13 +32,6 @@ require __DIR__ . '/functions.php';
         <?php echo "$name"; ?>
         </button>
         <?php endforeach; ?>
-        <section class="socials">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-youtube"></a>
-        </section>
+    
         </form>
     </header>
-</body>
-</html>
