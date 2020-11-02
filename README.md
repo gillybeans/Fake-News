@@ -1,5 +1,6 @@
 # Fake-News
-![](https://media.giphy.com/media/MuHJcSI9ySLsrNo59Q/giphy.gif) <br>
+[<img src="https://media.giphy.com/media/MuHJcSI9ySLsrNo59Q/giphy.gif" width="100%">]
+<br>
 First hand-in assignment; build a news feed with fake news articles
 
 <h2>Built with:</h2>
