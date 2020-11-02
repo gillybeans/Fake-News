@@ -33,7 +33,7 @@ $posts = [
     'authorId' => 4,
     'published' => '2020-02-03', 
     'likes' => 467,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/cowslosejobs.jpg',
 ],
 [ 
     'id' => 2,
@@ -42,7 +42,7 @@ $posts = [
     'authorId' => 2, 
     'published' => '2020-02-09', 
     'likes' => 3401,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/poorneedmoney.jpg',
 ],
 [ 
     'id' => 3,
@@ -51,7 +51,7 @@ $posts = [
     'authorId' => 0,
     'published' => '2020-02-17', 
     'likes' => 293,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/ruinedreputation.jpg',
 ],
 [ 
     'id' => 4,
@@ -60,7 +60,7 @@ $posts = [
     'authorId' => 1,
     'published' => '2020-02-21', 
     'likes' => 8457,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/babiestoblame.jpg',
 ],
 [ 
     'id' => 5,
@@ -69,7 +69,7 @@ $posts = [
     'authorId' => 3, 
     'published' => '2020-03-19', 
     'likes' => 627,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/findguns.jpg',
 ],
 [ 
     'id' => 6,
@@ -78,7 +78,7 @@ $posts = [
     'authorId' => 1, 
     'published' => '2020-05-14', 
     'likes' => 211,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/aircondition.jpg',
 ],
 [ 
     'id' => 7,
@@ -87,7 +87,7 @@ $posts = [
     'authorId' => 4,
     'published' => '2020-06-15', 
     'likes' => 69,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/planes.jpg',
 ],
 [ 
     'id' => 8,
@@ -96,7 +96,7 @@ $posts = [
     'authorId' => 0, 
     'published' => '2020-09-23', 
     'likes' => 835,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/womanmissing.jpg',
 ],
 [ 
     'id' => 9,
@@ -105,7 +105,7 @@ $posts = [
     'authorId' => 3,
     'published' => '2020-01-13', 
     'likes' => 1572,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/diana.jpg',
 ],
 [ 
     'id' => 10,
@@ -114,6 +114,6 @@ $posts = [
     'authorId' => 2,
     'published' => '2020-04-22', 
     'likes' => 23,
-    'img' => 'https://picsum.photos/650/300',
+    'img' => '/img/fakeitmakeit.jpg',
 ]
 ];
