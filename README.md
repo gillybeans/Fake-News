@@ -22,5 +22,14 @@ First hand-in assignment; build a news feed with fake news articles
 <pre>
 <code>$ php -S localhost:8000 </code>
 </pre>
+<p>Open the file in your browser.</p>
 
 <h2>Code Review:</h2>
+<p>Emil Pettersson:</p>
+ <ul>
+        <li>Bra och tydlig syntax.</li>
+        <li>Snyggt att bilderna ändras vid uppdatering av sidan. Hade varit riktigt  coolt om varje artikel hade en unik bild.</li>
+        <li>Jag skulle flytta “social media-ikonerna något till vänster för att skapa    lite luft/utrymme mellan dem och författarna.</li>
+        <li>Skulle vara schysst med en footerdel längst ner på sidan.</li>
+        <li>En liten indenteringsdetalj I index.php på rad 19 ?></li>
+    </ul> 
