@@ -1,7 +1,7 @@
 # Fake-News
-[<img src="https://media.giphy.com/media/MuHJcSI9ySLsrNo59Q/giphy.gif" width="100%">]
+<img src="https://media.giphy.com/media/MuHJcSI9ySLsrNo59Q/giphy.gif" width="100%">
 <br>
-First hand-in assignment; build a news feed with fake news articles
+First hand-in assignment; build a news feed with fake news articles in PHP
 
 <h2>Built with:</h2>
  <ul>
